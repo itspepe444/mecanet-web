@@ -3,5 +3,5 @@ User-agent: *
 Allow: /
 
 # Provide a link to the sitemap for discovery
+Sitemap: https://mecanet-web.netlify.app/sitemap_index.xml
 Sitemap: https://mecanet-web.netlify.app/sitemap.xml
-Sitemap: https://mecanet-web.netlify.app/mysite.xml
