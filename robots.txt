@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Provide a link to the sitemap for discovery
-Sitemap: https://www.tu-dominio-aqui.com/sitemap.xml 
+   Sitemap: https://mecanet-web.netlify.app/sitemap.xml
