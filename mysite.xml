@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://mecanet-web.netlify.app/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url><loc>https://mecanet-web.netlify.app/blog.html</loc></url>
+  <url><loc>https://mecanet-web.netlify.app/sobre-nosotros.html</loc></url>
+  <url><loc>https://mecanet-web.netlify.app/contacto.html</loc></url>
+  <url><loc>https://mecanet-web.netlify.app/privacidad.html</loc></url>
+
+  <url><loc>https://mecanet-web.netlify.app/consejos-aumentar-velocidad-mecanografia.html</loc></url>
+  <url><loc>https://mecanet-web.netlify.app/historia-teclado-qwerty.html</loc></url>
+  <url><loc>https://mecanet-web.netlify.app/errores-comunes-mecanografia.html</loc></url>
+  <url><loc>https://mecanet-web.netlify.app/teclados-mecanicos-vs-membrana.html</loc></url>
+  <url><loc>https://mecanet-web.netlify.app/ejercicios-calentamiento-dedos.html</loc></url>
+  <url><loc>https://mecanet-web.netlify.app/psicologia-ritmo-mecanografia.html</loc></url>
+</urlset> 
