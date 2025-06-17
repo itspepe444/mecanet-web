@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Mecanet</title>
+    <meta name="robots" content="noindex, follow">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">Mecanet</a>
+        <nav>
+            <a href="index.html">Práctica</a>
+            <a href="blog.html">Blog</a>
+            <a href="sobre-nosotros.html">Sobre Nosotros</a>
+            <a href="contacto.html" class="nav-active">Contacto</a>
+        </nav>
+    </header>
+    <main class="content-page">
+        <h1>Contactar con el Equipo</h1>
+        <p>Estamos construyendo una comunidad abierta y nos encantaría saber de ti. Ya sea que tengas sugerencias, hayas encontrado un error (bug) o estés interesado en colaborar, estos son nuestros canales de comunicación.</p>
+        
+        <h2>Canales de Transmisión</h2>
+        
+        <div class="contact-methods">
+            <div class="contact-card">
+                <h3>Colaboración y Código Fuente</h3>
+                <p>Nuestro proyecto es de código abierto. La mejor forma de proponer cambios, reportar errores técnicos o ver el código es a través de nuestro repositorio en GitHub.</p>
+                <a href="https://github.com/tu-usuario/mecanet" target="_blank" rel="noopener noreferrer" class="btn">Visitar GitHub</a>
+            </div>
+            
+            <div class="contact-card">
+                <h3>Red Profesional</h3>
+                <p>Para asuntos más formales o para conectar a nivel profesional, puedes encontrarme en LinkedIn. ¡Siempre estoy abierto a nuevas oportunidades y colaboraciones!</p>
+                <a href="https://linkedin.com/in/tu-usuario" target="_blank" rel="noopener noreferrer" class="btn">Conectar en LinkedIn</a>
+            </div>
+
+            <div class="contact-card">
+                <h3>Comunicación Directa</h3>
+                <p>Para cualquier otra consulta, puedes enviar un paquete de datos (un email) a la siguiente dirección. Intentaremos responder a la mayor brevedad posible.</p>
+                <p class="email-display">contacto [at] meca.net</p>
+            </div>
+        </div>
+
+        <a href="index.html" class="back-link" style="margin-top: 40px;">&larr; Volver a la página principal</a>
+    </main>
+    <footer style="margin-top: 40px; text-align: center; color: var(--text-color);">
+        <div class="footer-links">
+            <a href="privacidad.html">Política de Privacidad</a>
+        </div>
+        <p id="copyright">&copy; 2023 Mecanet. Todos los derechos reservados.</p>
+    </footer>
+    <script>
+        document.getElementById('copyright').innerHTML = `&copy; ${new Date().getFullYear()} Mecanet. Todos los derechos reservados.`;
+    </script>
+</body>
+</html> 

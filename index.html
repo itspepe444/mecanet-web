@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <title>Mecanet - Práctica de Mecanografía Online para Mejorar tu Velocidad</title>
+    <meta name="description" content="Mejora tu velocidad y precisión al teclear con nuestra herramienta de práctica de mecanografía gratuita. Mide tus palabras por minuto (WPM) y analiza tus errores.">
+    <meta name="keywords" content="mecanografía, práctica de mecanografía, prueba de teclado, wpm, palabras por minuto, escribir rápido, typing test spanish">
+    <link rel="canonical" href="https://www.tu-dominio-aqui.com/">
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" sizes="any">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">Mecanet</a>
+        <nav>
+            <a href="index.html" class="nav-active">Práctica</a>
+            <a href="blog.html">Blog</a>
+            <a href="sobre-nosotros.html">Sobre Nosotros</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+    <main class="main-app-container">
+        <div id="theme-selector">
+            <span>Tema:</span>
+            <button data-color="light" class="active">Claro</button>
+            <button data-color="dark">Oscuro</button>
+            <input type="color" id="color-picker" title="Color personalizado">
+        </div>
+
+        <section class="settings-container">
+            <div id="mode-selector">
+                <span>Modo:</span>
+                <button data-mode="practice" class="active">Práctica</button>
+                <button data-mode="timed">Contrarreloj</button>
+            </div>
+        
+            <div class="config-options">
+                <div id="length-selector">
+                    <span>Longitud:</span>
+                    <button data-length="short">Corta</button>
+                    <button data-length="medium" class="active">Mediana</button>
+                    <button data-length="long">Larga</button>
+                </div>
+        
+                <div id="duration-selector" class="hidden">
+                    <span>Duración:</span>
+                    <button data-duration="30" class="active">30s</button>
+                    <button data-duration="60">60s</button>
+                    <button data-duration="90">90s</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="text-to-type-container">
+            <p id="text-to-type">Aquí aparecerá el texto para escribir...</p>
+        </section>
+
+        <section id="guide-keyboard-container">
+            <!-- El teclado guía se generará con JavaScript -->
+        </section>
+
+        <textarea id="user-input" rows="10" placeholder="Empieza a escribir aquí..."></textarea>
+        
+        <section id="stats">
+            <p>Tiempo: <span id="timer">0</span>s</p>
+            <p>WPM: <span id="wpm">0</span></p>
+            <p>Precisión: <span id="accuracy">100</span>%</p>
+        </section>
+        
+        <section id="button-container">
+            <button id="restart-button">Reiniciar Prueba</button>
+            <button id="next-test-button">Siguiente Prueba</button>
+        </section>
+
+        <section id="results-container" style="display: none;">
+            <h3>Análisis de Errores</h3>
+            <div id="keyboard-container">
+                <!-- Las filas del teclado se generarán con JavaScript -->
+            </div>
+            <h4>Errores específicos:</h4>
+            <ul id="error-details"></ul>
+        </section>
+
+    </main>
+    <footer style="margin-top: 40px; text-align: center; color: var(--text-color);">
+        <div class="footer-links">
+            <a href="privacidad.html">Política de Privacidad</a>
+        </div>
+        <p id="copyright">&copy; 2023 Mecanet. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        document.getElementById('copyright').innerHTML = `&copy; ${new Date().getFullYear()} Mecanet. Todos los derechos reservados.`;
+    </script>
+</body>
+</html> 

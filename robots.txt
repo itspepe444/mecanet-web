@@ -1,0 +1,6 @@
+# Allow all user agents to crawl the entire site
+User-agent: *
+Allow: /
+
+# Provide a link to the sitemap for discovery
+Sitemap: https://www.tu-dominio-aqui.com/sitemap.xml 
